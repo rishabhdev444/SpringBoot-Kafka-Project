@@ -1,6 +1,6 @@
 # SpringBoot-Kafka-Project 
 
-Kafka Commands - 
+**Kafka Commands - **
 
 zookeeper-server-start.bat ..\..\config\zookeeper.properties              ------------ to start the zookeeper in cmd 
 
@@ -14,7 +14,7 @@ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my-topic --
 
 
 
-############# kafka Configuration in SpringBoot
+# Kafka Configuration in SpringBoot
 
 spring.kafka.consumer.bootstrap-servers:localhost:9092
 spring.kafka.consumer-group-id:myGroup
